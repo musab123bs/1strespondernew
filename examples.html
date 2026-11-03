@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Examples - 1st Responder News Web Services</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm sticky-top">
+        <div class="container-fluid px-lg-5 px-3">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-holder">
+                    <img src="images/logo.svg" alt="SERVING THE FIRST RESPONDER COMMUNITY SINCE 1993">
+                    <div class="logo-tagline">
+                        <div class="tagline-line-1">Web Services by Belsito Communications</div>
+                        <div class="tagline-line-2">SERVING THE FIRST RESPONDER COMMUNITY SINCE 1993</div>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end me-lg-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="examples.html">Examples</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-block">
+                <a href="contact_form.html" class="btn btn-brand-red">GET YOUR FREE WEBSITE <span class="icon-circle"><i class="fas fa-arrow-right"></i></span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Examples Hero Banner -->
+    <section class="subpage-hero">
+        <div class="container text-center">
+            <div class="subpage-badge">Proven Emergency Service Web Design</div>
+            <h1 class="hero-title">WEBSITES WE'VE BUILT FOR <br><span class="red underline-red">DEPARTMENTS LIKE YOURS.</span></h1>
+            <p class="hero-subtext">Explore live websites designed, built, hosted, and actively supported by our team for fire departments, rescue squads, EMS corps, and emergency districts.</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="contact_form.html" class="btn btn-brand-red btn-lg">GET YOUR FREE WEBSITE <span class="icon-circle"><i class="fas fa-arrow-right"></i></span></a>
+                <a href="services.html" class="btn btn-brand-outline text-white border-white">EXPLORE OUR SERVICES <i class="fas fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="py-5" style="background-color: var(--brand-light-gray);">
+        <div class="container py-lg-4">
+            <div class="text-center mb-4">
+                <p class="text-uppercase fw-bold mb-1" style="color: var(--brand-red); font-size: 0.9rem;">Portfolio Showcase</p>
+                <h2 class="section-title">CLIENT WEBSITES &amp; <span>LIVE EXAMPLES</span></h2>
+                <p class="section-subtitle">Real emergency service organizations backed by our turnkey $0 upfront design model.</p>
+            </div>
+
+            <!-- Filter Pills -->
+            <div class="filter-nav-wrap">
+                <button type="button" class="btn-filter active" data-filter="all"><i class="fas fa-layer-group me-1"></i> All Examples</button>
+                <button type="button" class="btn-filter" data-filter="fire-dept"><i class="fas fa-fire me-1"></i> Fire Departments</button>
+                <button type="button" class="btn-filter" data-filter="district"><i class="fas fa-landmark me-1"></i> Fire Districts</button>
+                <button type="button" class="btn-filter" data-filter="rescue"><i class="fas fa-ambulance me-1"></i> EMS &amp; Rescue</button>
+            </div>
+
+            <!-- Examples Grid -->
+            <div class="row g-4" id="portfolioContainer">
+                <!-- Example 1: Salisbury Mills -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="fire-dept">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-salisbury-mills.webp" alt="Salisbury Mills Fire Department Website Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge">Fire Department</span>
+                            <h3 class="example-title">Salisbury Mills Fire Department</h3>
+                            <p class="example-desc">Modern responsive volunteer department platform featuring apparatus profiles, volunteer recruitment forms, incident updates, and hall rental booking info.</p>
+                            <div class="example-footer-action">
+                                <a href="https://salisburymillsfire.com/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 2: Fort Montgomery -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="district">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-fort-montgomery.webp" alt="Fort Montgomery Fire District Website Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge badge-district">Fire District</span>
+                            <h3 class="example-title">Fort Montgomery Fire District</h3>
+                            <p class="example-desc">Official public district portal delivering commissioner meeting minutes, tax district transparency, budget archives, department history, and legal notices.</p>
+                            <div class="example-footer-action">
+                                <a href="https://www.fortmontgomeryfd.com/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 3: Monsey FD -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="fire-dept">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-monsey.webp" alt="Monsey Fire Department Website Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge">Fire Department</span>
+                            <h3 class="example-title">Monsey Fire Department</h3>
+                            <p class="example-desc">High-engagement volunteer fire department site with interactive volunteer application workflows, incident photo galleries, and community fire safety bulletins.</p>
+                            <div class="example-footer-action">
+                                <a href="https://monseyfd.org/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 4: North Okaloosa -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="district">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-north-okaloosa.webp" alt="North Okaloosa Fire District Website Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge badge-district">Fire District</span>
+                            <h3 class="example-title">North Okaloosa Fire District</h3>
+                            <p class="example-desc">Comprehensive municipal fire district site featuring ISO rating verification, burn permit regulations, station location maps, and board meeting records.</p>
+                            <div class="example-footer-action">
+                                <a href="https://northokaloosafire.com/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 5: Dan Leghorn Engine Co. -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="fire-dept">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-dan-leghorn.webp" alt="Dan Leghorn Engine Company Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge">Fire Department</span>
+                            <h3 class="example-title">Dan Leghorn Engine Co. No. 1</h3>
+                            <p class="example-desc">Rich historical engine company website preserving company heritage, apparatus roster, community fundraising events, and active member notifications.</p>
+                            <div class="example-footer-action">
+                                <a href="https://salisburymillsfire.com/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 6: Montgomery Fire & Rescue -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="rescue">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-montgomery-rescue.webp" alt="Montgomery Fire Rescue Department Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge badge-rescue">EMS &amp; Rescue</span>
+                            <h3 class="example-title">Montgomery Fire Rescue Dept.</h3>
+                            <p class="example-desc">Dedicated emergency medical and heavy rescue website showcasing apparatus specifications, emergency safety advisories, and volunteer responder signups.</p>
+                            <div class="example-footer-action">
+                                <a href="https://www.fortmontgomeryfd.com/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Example 7: Thomaston Fire Department -->
+                <div class="col-lg-4 col-md-6 portfolio-item" data-category="fire-dept">
+                    <div class="example-card">
+                        <div class="example-preview-wrap">
+                            <img src="images/mockup-thomaston.webp" alt="Thomaston Volunteer Fire Department Mockup" loading="lazy">
+                        </div>
+                        <div class="example-card-body">
+                            <span class="example-category-badge">Fire Department</span>
+                            <h3 class="example-title">Thomaston Fire Department</h3>
+                            <p class="example-desc">Clean, community-focused fire department website highlighting active volunteer calls, apparatus fleet, emergency safety tips, and officer contacts.</p>
+                            <div class="example-footer-action">
+                                <a href="https://northokaloosafire.com/" target="_blank" rel="noopener noreferrer" class="btn btn-brand-red btn-sm">VISIT LIVE SITE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="contact_form.html" class="text-decoration-none text-muted small fw-semibold">Request Build <i class="fas fa-chevron-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section (Identical Homepage System) -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="pricing-title">A BETTER DEPARTMENT WEBSITE <br>WITHOUT THE UPFRONT DESIGN COST.</h2>
+
+            <div class="row justify-content-center align-items-center mb-4">
+                <div class="col-md-5 price-box border-end border-secondary border-opacity-25 d-flex justify-content-center">
+                    <img src="images/dollar-zero-design-with-white-text.webp" alt="$0 Website Build or Redesign" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-md-5 price-box">
+                    <div class="price-695">$695<span style="font-size: 2rem;">/YEAR</span></div>
+                    <div class="price-text mt-2">HOSTING, MAINTENANCE & SUPPORT</div>
+                    <div class="price-subtext text-warning">PROMOTIONAL RATE GUARANTEED FOR YOUR FIRST 2 YEARS.</div>
+                </div>
+            </div>
+
+            <p class="mb-4 mx-auto" style="max-width: 800px;">Whether you're replacing an outdated website or starting from scratch, we'll help your department create a professional online presence.</p>
+
+            <a href="contact_form.html" class="btn btn-brand-red btn-lg">GET YOUR FREE WEBSITE <span class="icon-circle"><i class="fas fa-arrow-right"></i></span></a>
+        </div>
+    </section>
+
+    <!-- Footer Section (Identical Homepage System) -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0 px-lg-5 px-3 ps-lg-0">
+                    <h4>BUILT FOR THOSE WHO SERVE.</h4>
+                    <p class="mb-1 fw-bold" style="color: var(--brand-dark-blue);">1st Responder News has been serving the first responder community since 1993.</p>
+                    <p class="text-dark small mb-0">Our web services combine decades of experience in the first responder community with professional website design, hosting and ongoing support from Belsito Communications.</p>
+                </div>
+                <div class="col-lg-4 footer-contact">
+                    <p class="fw-bold mb-2">Have questions?</p>
+                    <p class="mb-2"><i class="fas fa-phone-alt"></i> 888-235-7486 ext. 210</p>
+                    <p class="mb-0"><i class="fas fa-envelope"></i> nicholas@1strespondernews.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Interactive Category Filter for Examples
+        document.addEventListener('DOMContentLoaded', function () {
+            const filterButtons = document.querySelectorAll('.btn-filter');
+            const items = document.querySelectorAll('.portfolio-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    items.forEach(item => {
+                        const itemCategory = item.getAttribute('data-category');
+                        if (filterValue === 'all' || itemCategory === filterValue) {
+                            item.classList.remove('example-item-hidden');
+                        } else {
+                            item.classList.add('example-item-hidden');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
